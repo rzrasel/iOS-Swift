@@ -1,0 +1,5 @@
+osx_image: xcode9.1
+language: swift
+
+script:
+- xctool build iOS-Swift-2016 -project iOS-Swift-2016/SwiftAlertCenterOne/SwiftAlertCenterOne.xcodeproj -scheme "RzAlertCenterOne"
