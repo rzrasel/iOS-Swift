@@ -3,3 +3,7 @@
 
 [![](http://img.shields.io/badge/Swift-2.1-blue.svg)](https://developer.apple.com/swift) [![](http://img.shields.io/badge/Platforms-iOS_|%20OS%20X_|%20tvOS_|%20watchOS-blue.svg)]()
 
+<center><b>Documents</b></center>
+<hr />
+<i class="icon-cog"></i>
+
