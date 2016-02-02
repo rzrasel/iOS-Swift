@@ -2,7 +2,7 @@
 ## Rz Rasel
 
 
-Target <code>iOS 9+</code> <code>Swift 2+</code>
+Target <kbd>iOS 9+</kbd> <kbd>Swift 2+</kbd>
 
 [![](https://avatars0.githubusercontent.com/u/6184050?v=3&s=460)](https://github.com/rzrasel/SwiftLocalNotificationTwo)
 
