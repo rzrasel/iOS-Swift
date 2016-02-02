@@ -1,0 +1,562 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B09E7E2E1C6078D500D30703 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09E7E2D1C6078D500D30703 /* AppDelegate.swift */; };
+		B09E7E301C6078D500D30703 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09E7E2F1C6078D500D30703 /* ViewController.swift */; };
+		B09E7E331C6078D500D30703 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B09E7E311C6078D500D30703 /* Main.storyboard */; };
+		B09E7E361C6078D500D30703 /* SwiftDropdownSelectBoxOne.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B09E7E341C6078D500D30703 /* SwiftDropdownSelectBoxOne.xcdatamodeld */; };
+		B09E7E381C6078D500D30703 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B09E7E371C6078D500D30703 /* Assets.xcassets */; };
+		B09E7E3B1C6078D500D30703 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B09E7E391C6078D500D30703 /* LaunchScreen.storyboard */; };
+		B09E7E461C6078D500D30703 /* SwiftDropdownSelectBoxOneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09E7E451C6078D500D30703 /* SwiftDropdownSelectBoxOneTests.swift */; };
+		B09E7E511C6078D500D30703 /* SwiftDropdownSelectBoxOneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09E7E501C6078D500D30703 /* SwiftDropdownSelectBoxOneUITests.swift */; };
+		B09E7E641C607F7300D30703 /* DPDSBConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09E7E631C607F7300D30703 /* DPDSBConstant.swift */; };
+		B09E7E6C1C60809300D30703 /* DPDSBUIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09E7E6A1C60809300D30703 /* DPDSBUIView+Extension.swift */; };
+		B09E7E711C60816900D30703 /* DropDownSelectBoxCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B09E7E701C60816900D30703 /* DropDownSelectBoxCell.xib */; };
+		B09E7E781C60A09700D30703 /* DropDownSelectBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09E7E761C60A09700D30703 /* DropDownSelectBox.swift */; };
+		B09E7E791C60A09700D30703 /* DropDownSelectBoxCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09E7E771C60A09700D30703 /* DropDownSelectBoxCell.swift */; };
+		B09E7E7B1C60A0DB00D30703 /* DPDSBKeyboardListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09E7E7A1C60A0DB00D30703 /* DPDSBKeyboardListener.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B09E7E421C6078D500D30703 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B09E7E221C6078D500D30703 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B09E7E291C6078D500D30703;
+			remoteInfo = SwiftDropdownSelectBoxOne;
+		};
+		B09E7E4D1C6078D500D30703 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B09E7E221C6078D500D30703 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B09E7E291C6078D500D30703;
+			remoteInfo = SwiftDropdownSelectBoxOne;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B09E7E2A1C6078D500D30703 /* SwiftDropdownSelectBoxOne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftDropdownSelectBoxOne.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B09E7E2D1C6078D500D30703 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B09E7E2F1C6078D500D30703 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B09E7E321C6078D500D30703 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B09E7E351C6078D500D30703 /* SwiftDropdownSelectBoxOne.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SwiftDropdownSelectBoxOne.xcdatamodel; sourceTree = "<group>"; };
+		B09E7E371C6078D500D30703 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B09E7E3A1C6078D500D30703 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B09E7E3C1C6078D500D30703 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B09E7E411C6078D500D30703 /* SwiftDropdownSelectBoxOneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftDropdownSelectBoxOneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B09E7E451C6078D500D30703 /* SwiftDropdownSelectBoxOneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDropdownSelectBoxOneTests.swift; sourceTree = "<group>"; };
+		B09E7E471C6078D500D30703 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B09E7E4C1C6078D500D30703 /* SwiftDropdownSelectBoxOneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftDropdownSelectBoxOneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B09E7E501C6078D500D30703 /* SwiftDropdownSelectBoxOneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDropdownSelectBoxOneUITests.swift; sourceTree = "<group>"; };
+		B09E7E521C6078D500D30703 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B09E7E631C607F7300D30703 /* DPDSBConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DPDSBConstant.swift; path = DPDSBHelper/DPDSBConstant.swift; sourceTree = "<group>"; };
+		B09E7E6A1C60809300D30703 /* DPDSBUIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "DPDSBUIView+Extension.swift"; path = "DPDSBHelper/DPDSBUIView+Extension.swift"; sourceTree = "<group>"; };
+		B09E7E701C60816900D30703 /* DropDownSelectBoxCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DropDownSelectBoxCell.xib; path = DropDownSelectBox/DropDownSelectBoxCell.xib; sourceTree = "<group>"; };
+		B09E7E761C60A09700D30703 /* DropDownSelectBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DropDownSelectBox.swift; path = DropDownSelectBox/DropDownSelectBox.swift; sourceTree = "<group>"; };
+		B09E7E771C60A09700D30703 /* DropDownSelectBoxCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DropDownSelectBoxCell.swift; path = DropDownSelectBox/DropDownSelectBoxCell.swift; sourceTree = "<group>"; };
+		B09E7E7A1C60A0DB00D30703 /* DPDSBKeyboardListener.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DPDSBKeyboardListener.swift; path = DPDSBHelper/DPDSBKeyboardListener.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B09E7E271C6078D500D30703 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B09E7E3E1C6078D500D30703 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B09E7E491C6078D500D30703 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B09E7E211C6078D500D30703 = {
+			isa = PBXGroup;
+			children = (
+				B09E7E2C1C6078D500D30703 /* SwiftDropdownSelectBoxOne */,
+				B09E7E441C6078D500D30703 /* SwiftDropdownSelectBoxOneTests */,
+				B09E7E4F1C6078D500D30703 /* SwiftDropdownSelectBoxOneUITests */,
+				B09E7E2B1C6078D500D30703 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B09E7E2B1C6078D500D30703 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B09E7E2A1C6078D500D30703 /* SwiftDropdownSelectBoxOne.app */,
+				B09E7E411C6078D500D30703 /* SwiftDropdownSelectBoxOneTests.xctest */,
+				B09E7E4C1C6078D500D30703 /* SwiftDropdownSelectBoxOneUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B09E7E2C1C6078D500D30703 /* SwiftDropdownSelectBoxOne */ = {
+			isa = PBXGroup;
+			children = (
+				B09E7E621C607F3C00D30703 /* DPDSBHelper */,
+				B09E7E6F1C60813300D30703 /* DropDownSelectBox */,
+				B09E7E2D1C6078D500D30703 /* AppDelegate.swift */,
+				B09E7E2F1C6078D500D30703 /* ViewController.swift */,
+				B09E7E311C6078D500D30703 /* Main.storyboard */,
+				B09E7E371C6078D500D30703 /* Assets.xcassets */,
+				B09E7E391C6078D500D30703 /* LaunchScreen.storyboard */,
+				B09E7E3C1C6078D500D30703 /* Info.plist */,
+				B09E7E341C6078D500D30703 /* SwiftDropdownSelectBoxOne.xcdatamodeld */,
+			);
+			path = SwiftDropdownSelectBoxOne;
+			sourceTree = "<group>";
+		};
+		B09E7E441C6078D500D30703 /* SwiftDropdownSelectBoxOneTests */ = {
+			isa = PBXGroup;
+			children = (
+				B09E7E451C6078D500D30703 /* SwiftDropdownSelectBoxOneTests.swift */,
+				B09E7E471C6078D500D30703 /* Info.plist */,
+			);
+			path = SwiftDropdownSelectBoxOneTests;
+			sourceTree = "<group>";
+		};
+		B09E7E4F1C6078D500D30703 /* SwiftDropdownSelectBoxOneUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B09E7E501C6078D500D30703 /* SwiftDropdownSelectBoxOneUITests.swift */,
+				B09E7E521C6078D500D30703 /* Info.plist */,
+			);
+			path = SwiftDropdownSelectBoxOneUITests;
+			sourceTree = "<group>";
+		};
+		B09E7E621C607F3C00D30703 /* DPDSBHelper */ = {
+			isa = PBXGroup;
+			children = (
+				B09E7E631C607F7300D30703 /* DPDSBConstant.swift */,
+				B09E7E7A1C60A0DB00D30703 /* DPDSBKeyboardListener.swift */,
+				B09E7E6A1C60809300D30703 /* DPDSBUIView+Extension.swift */,
+			);
+			name = DPDSBHelper;
+			sourceTree = "<group>";
+		};
+		B09E7E6F1C60813300D30703 /* DropDownSelectBox */ = {
+			isa = PBXGroup;
+			children = (
+				B09E7E701C60816900D30703 /* DropDownSelectBoxCell.xib */,
+				B09E7E771C60A09700D30703 /* DropDownSelectBoxCell.swift */,
+				B09E7E761C60A09700D30703 /* DropDownSelectBox.swift */,
+			);
+			name = DropDownSelectBox;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B09E7E291C6078D500D30703 /* SwiftDropdownSelectBoxOne */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B09E7E551C6078D500D30703 /* Build configuration list for PBXNativeTarget "SwiftDropdownSelectBoxOne" */;
+			buildPhases = (
+				B09E7E261C6078D500D30703 /* Sources */,
+				B09E7E271C6078D500D30703 /* Frameworks */,
+				B09E7E281C6078D500D30703 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftDropdownSelectBoxOne;
+			productName = SwiftDropdownSelectBoxOne;
+			productReference = B09E7E2A1C6078D500D30703 /* SwiftDropdownSelectBoxOne.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B09E7E401C6078D500D30703 /* SwiftDropdownSelectBoxOneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B09E7E581C6078D500D30703 /* Build configuration list for PBXNativeTarget "SwiftDropdownSelectBoxOneTests" */;
+			buildPhases = (
+				B09E7E3D1C6078D500D30703 /* Sources */,
+				B09E7E3E1C6078D500D30703 /* Frameworks */,
+				B09E7E3F1C6078D500D30703 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B09E7E431C6078D500D30703 /* PBXTargetDependency */,
+			);
+			name = SwiftDropdownSelectBoxOneTests;
+			productName = SwiftDropdownSelectBoxOneTests;
+			productReference = B09E7E411C6078D500D30703 /* SwiftDropdownSelectBoxOneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B09E7E4B1C6078D500D30703 /* SwiftDropdownSelectBoxOneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B09E7E5B1C6078D500D30703 /* Build configuration list for PBXNativeTarget "SwiftDropdownSelectBoxOneUITests" */;
+			buildPhases = (
+				B09E7E481C6078D500D30703 /* Sources */,
+				B09E7E491C6078D500D30703 /* Frameworks */,
+				B09E7E4A1C6078D500D30703 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B09E7E4E1C6078D500D30703 /* PBXTargetDependency */,
+			);
+			name = SwiftDropdownSelectBoxOneUITests;
+			productName = SwiftDropdownSelectBoxOneUITests;
+			productReference = B09E7E4C1C6078D500D30703 /* SwiftDropdownSelectBoxOneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B09E7E221C6078D500D30703 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = RzRasel;
+				TargetAttributes = {
+					B09E7E291C6078D500D30703 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					B09E7E401C6078D500D30703 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = B09E7E291C6078D500D30703;
+					};
+					B09E7E4B1C6078D500D30703 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = B09E7E291C6078D500D30703;
+					};
+				};
+			};
+			buildConfigurationList = B09E7E251C6078D500D30703 /* Build configuration list for PBXProject "SwiftDropdownSelectBoxOne" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B09E7E211C6078D500D30703;
+			productRefGroup = B09E7E2B1C6078D500D30703 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B09E7E291C6078D500D30703 /* SwiftDropdownSelectBoxOne */,
+				B09E7E401C6078D500D30703 /* SwiftDropdownSelectBoxOneTests */,
+				B09E7E4B1C6078D500D30703 /* SwiftDropdownSelectBoxOneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B09E7E281C6078D500D30703 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B09E7E3B1C6078D500D30703 /* LaunchScreen.storyboard in Resources */,
+				B09E7E711C60816900D30703 /* DropDownSelectBoxCell.xib in Resources */,
+				B09E7E381C6078D500D30703 /* Assets.xcassets in Resources */,
+				B09E7E331C6078D500D30703 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B09E7E3F1C6078D500D30703 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B09E7E4A1C6078D500D30703 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B09E7E261C6078D500D30703 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B09E7E781C60A09700D30703 /* DropDownSelectBox.swift in Sources */,
+				B09E7E7B1C60A0DB00D30703 /* DPDSBKeyboardListener.swift in Sources */,
+				B09E7E361C6078D500D30703 /* SwiftDropdownSelectBoxOne.xcdatamodeld in Sources */,
+				B09E7E301C6078D500D30703 /* ViewController.swift in Sources */,
+				B09E7E791C60A09700D30703 /* DropDownSelectBoxCell.swift in Sources */,
+				B09E7E2E1C6078D500D30703 /* AppDelegate.swift in Sources */,
+				B09E7E6C1C60809300D30703 /* DPDSBUIView+Extension.swift in Sources */,
+				B09E7E641C607F7300D30703 /* DPDSBConstant.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B09E7E3D1C6078D500D30703 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B09E7E461C6078D500D30703 /* SwiftDropdownSelectBoxOneTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B09E7E481C6078D500D30703 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B09E7E511C6078D500D30703 /* SwiftDropdownSelectBoxOneUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B09E7E431C6078D500D30703 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B09E7E291C6078D500D30703 /* SwiftDropdownSelectBoxOne */;
+			targetProxy = B09E7E421C6078D500D30703 /* PBXContainerItemProxy */;
+		};
+		B09E7E4E1C6078D500D30703 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B09E7E291C6078D500D30703 /* SwiftDropdownSelectBoxOne */;
+			targetProxy = B09E7E4D1C6078D500D30703 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B09E7E311C6078D500D30703 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B09E7E321C6078D500D30703 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B09E7E391C6078D500D30703 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B09E7E3A1C6078D500D30703 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B09E7E531C6078D500D30703 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B09E7E541C6078D500D30703 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B09E7E561C6078D500D30703 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SwiftDropdownSelectBoxOne/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rz.rasel.SwiftDropdownSelectBoxOne;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B09E7E571C6078D500D30703 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SwiftDropdownSelectBoxOne/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rz.rasel.SwiftDropdownSelectBoxOne;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B09E7E591C6078D500D30703 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SwiftDropdownSelectBoxOneTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rz.rasel.SwiftDropdownSelectBoxOneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftDropdownSelectBoxOne.app/SwiftDropdownSelectBoxOne";
+			};
+			name = Debug;
+		};
+		B09E7E5A1C6078D500D30703 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SwiftDropdownSelectBoxOneTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rz.rasel.SwiftDropdownSelectBoxOneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftDropdownSelectBoxOne.app/SwiftDropdownSelectBoxOne";
+			};
+			name = Release;
+		};
+		B09E7E5C1C6078D500D30703 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SwiftDropdownSelectBoxOneUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rz.rasel.SwiftDropdownSelectBoxOneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SwiftDropdownSelectBoxOne;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		B09E7E5D1C6078D500D30703 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SwiftDropdownSelectBoxOneUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rz.rasel.SwiftDropdownSelectBoxOneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SwiftDropdownSelectBoxOne;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B09E7E251C6078D500D30703 /* Build configuration list for PBXProject "SwiftDropdownSelectBoxOne" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B09E7E531C6078D500D30703 /* Debug */,
+				B09E7E541C6078D500D30703 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B09E7E551C6078D500D30703 /* Build configuration list for PBXNativeTarget "SwiftDropdownSelectBoxOne" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B09E7E561C6078D500D30703 /* Debug */,
+				B09E7E571C6078D500D30703 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B09E7E581C6078D500D30703 /* Build configuration list for PBXNativeTarget "SwiftDropdownSelectBoxOneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B09E7E591C6078D500D30703 /* Debug */,
+				B09E7E5A1C6078D500D30703 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B09E7E5B1C6078D500D30703 /* Build configuration list for PBXNativeTarget "SwiftDropdownSelectBoxOneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B09E7E5C1C6078D500D30703 /* Debug */,
+				B09E7E5D1C6078D500D30703 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B09E7E341C6078D500D30703 /* SwiftDropdownSelectBoxOne.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B09E7E351C6078D500D30703 /* SwiftDropdownSelectBoxOne.xcdatamodel */,
+			);
+			currentVersion = B09E7E351C6078D500D30703 /* SwiftDropdownSelectBoxOne.xcdatamodel */;
+			path = SwiftDropdownSelectBoxOne.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B09E7E221C6078D500D30703 /* Project object */;
+}
