@@ -1,4 +1,4 @@
-# iOS Swift 2016
+# iOS Swift
 ## Rz Rasel
 
 
@@ -13,7 +13,5 @@ Target <kbd>iOS 9+</kbd> <kbd>Swift 2+</kbd>
 ### Useas:-
 ```swift
 ```
-
-Useas <kbd>Ctrl+[</kbd> and <kbd>Ctrl+]</kbd>
 
 Please Like :+1:
