@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SwiftCameraGallery" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="e20-lr-6yM">
+                                <rect key="frame" x="20" y="28" width="280" height="472"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="280" id="7lG-WB-TzI"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="7lG-WB-TzI"/>
+                                    </mask>
+                                </variation>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jbk-hN-Nhg">
+                                <rect key="frame" x="183" y="514" width="117" height="34"/>
+                                <color key="backgroundColor" red="0.078431372550000003" green="0.12941176469999999" blue="0.23921568630000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <color key="tintColor" red="0.8980392157" green="0.8980392157" blue="0.8980392157" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="CAMERA"/>
+                                <connections>
+                                    <action selector="sysPhotoFromCamera:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9v6-9r-zeU"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g5A-Ru-DYU">
+                                <rect key="frame" x="20" y="514" width="117" height="34"/>
+                                <color key="backgroundColor" red="0.078431372549019607" green="0.12941176470588234" blue="0.23921568627450979" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="34" id="QLe-CA-F5O"/>
+                                    <constraint firstAttribute="width" constant="117" id="jak-Tq-xUj"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <color key="tintColor" red="0.89803921568627454" green="0.89803921568627454" blue="0.89803921568627454" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="GALLERY"/>
+                                <connections>
+                                    <action selector="sysPhotoFromGallery:" destination="BYZ-38-t0r" eventType="touchUpInside" id="N6L-TY-8hT"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.89803921568627454" green="0.89803921568627454" blue="0.89803921568627454" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="e20-lr-6yM" firstAttribute="leading" secondItem="g5A-Ru-DYU" secondAttribute="leading" id="4vM-Kf-xNv"/>
+                            <constraint firstItem="e20-lr-6yM" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" symbolic="YES" id="Dfs-Ce-EBi"/>
+                            <constraint firstItem="Jbk-hN-Nhg" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="163" id="Dye-rc-Kes"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="e20-lr-6yM" secondAttribute="bottom" constant="68" id="Jz2-ox-e4b"/>
+                            <constraint firstItem="Jbk-hN-Nhg" firstAttribute="trailing" secondItem="e20-lr-6yM" secondAttribute="trailing" id="NYt-P3-v8t"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="g5A-Ru-DYU" secondAttribute="trailing" constant="163" id="PpX-Lq-NL9"/>
+                            <constraint firstItem="Jbk-hN-Nhg" firstAttribute="leading" secondItem="g5A-Ru-DYU" secondAttribute="trailing" constant="46" id="Qae-Wc-kQ0"/>
+                            <constraint firstAttribute="bottom" secondItem="g5A-Ru-DYU" secondAttribute="bottom" constant="20" symbolic="YES" id="Stn-C3-bkM"/>
+                            <constraint firstItem="e20-lr-6yM" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="c0r-CM-ij3"/>
+                            <constraint firstItem="Jbk-hN-Nhg" firstAttribute="leading" secondItem="g5A-Ru-DYU" secondAttribute="trailing" constant="46" id="cOF-74-Dav"/>
+                            <constraint firstItem="g5A-Ru-DYU" firstAttribute="baseline" secondItem="Jbk-hN-Nhg" secondAttribute="baseline" id="duR-G1-9Mo"/>
+                            <constraint firstItem="e20-lr-6yM" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="hDT-r7-Djx"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="e20-lr-6yM" secondAttribute="leading" id="oOf-G3-nIe"/>
+                            <constraint firstItem="g5A-Ru-DYU" firstAttribute="top" secondItem="e20-lr-6yM" secondAttribute="bottom" constant="14" id="prW-Gu-qPU"/>
+                            <constraint firstItem="e20-lr-6yM" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="4" id="u5o-3F-0o5"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="hDT-r7-Djx"/>
+                                <exclude reference="oOf-G3-nIe"/>
+                                <exclude reference="PpX-Lq-NL9"/>
+                                <exclude reference="Dye-rc-Kes"/>
+                                <exclude reference="cOF-74-Dav"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="sysImageViewDisplay" destination="e20-lr-6yM" id="PgR-9e-YKd"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="600" y="445"/>
+        </scene>
+    </scenes>
+</document>
