@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SwiftHttpRequestOne" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hD8-ny-hSs">
+                                <rect key="frame" x="98" y="237" width="124" height="37"/>
+                                <color key="backgroundColor" red="0.31372549019607843" green="0.31764705882352939" blue="0.30980392156862746" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="37" id="aCF-Lm-fZ6"/>
+                                    <constraint firstAttribute="width" constant="124" id="aNS-vB-EPu"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <color key="tintColor" red="0.94901960784313721" green="0.37254901960784315" blue="0.36078431372549019" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="POST"/>
+                                <connections>
+                                    <action selector="sysBtnOnClickPost:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Pgj-DI-iew"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QdA-dy-ZJT">
+                                <rect key="frame" x="98" y="293" width="124" height="37"/>
+                                <color key="backgroundColor" red="0.31372549020000001" green="0.31764705879999999" blue="0.30980392159999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="37" id="oRg-xF-RBf"/>
+                                    <constraint firstAttribute="width" constant="124" id="oWG-t2-0Cq"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <color key="tintColor" red="0.94901960780000005" green="0.37254901959999998" blue="0.36078431370000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="GET"/>
+                                <connections>
+                                    <action selector="sysBtnOnClickGet:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2Dv-3a-cpb"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="QdA-dy-ZJT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="MDi-Qd-bDM"/>
+                            <constraint firstItem="QdA-dy-ZJT" firstAttribute="top" secondItem="hD8-ny-hSs" secondAttribute="bottom" constant="19" id="ant-eg-D1P"/>
+                            <constraint firstItem="hD8-ny-hSs" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="217" id="gBe-KD-hSJ"/>
+                            <constraint firstItem="hD8-ny-hSs" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="wYG-lX-FYe"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="293" y="399"/>
+        </scene>
+    </scenes>
+</document>
