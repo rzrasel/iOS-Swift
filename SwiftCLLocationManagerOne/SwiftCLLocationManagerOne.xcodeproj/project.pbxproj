@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B04EB9531C675686000BCC43 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04EB9521C675686000BCC43 /* AppDelegate.swift */; };
+		B04EB9551C675686000BCC43 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04EB9541C675686000BCC43 /* ViewController.swift */; };
+		B04EB9581C675686000BCC43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B04EB9561C675686000BCC43 /* Main.storyboard */; };
+		B04EB95B1C675686000BCC43 /* SwiftCLLocationManagerOne.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B04EB9591C675686000BCC43 /* SwiftCLLocationManagerOne.xcdatamodeld */; };
+		B04EB95D1C675686000BCC43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B04EB95C1C675686000BCC43 /* Assets.xcassets */; };
+		B04EB9601C675686000BCC43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B04EB95E1C675686000BCC43 /* LaunchScreen.storyboard */; };
+		B04EB96B1C675686000BCC43 /* SwiftCLLocationManagerOneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04EB96A1C675686000BCC43 /* SwiftCLLocationManagerOneTests.swift */; };
+		B04EB9761C675686000BCC43 /* SwiftCLLocationManagerOneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04EB9751C675686000BCC43 /* SwiftCLLocationManagerOneUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B04EB9671C675686000BCC43 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B04EB9471C675686000BCC43 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B04EB94E1C675686000BCC43;
+			remoteInfo = SwiftCLLocationManagerOne;
+		};
+		B04EB9721C675686000BCC43 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B04EB9471C675686000BCC43 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B04EB94E1C675686000BCC43;
+			remoteInfo = SwiftCLLocationManagerOne;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B04EB94F1C675686000BCC43 /* SwiftCLLocationManagerOne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftCLLocationManagerOne.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B04EB9521C675686000BCC43 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B04EB9541C675686000BCC43 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B04EB9571C675686000BCC43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B04EB95A1C675686000BCC43 /* SwiftCLLocationManagerOne.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SwiftCLLocationManagerOne.xcdatamodel; sourceTree = "<group>"; };
+		B04EB95C1C675686000BCC43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B04EB95F1C675686000BCC43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B04EB9611C675686000BCC43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B04EB9661C675686000BCC43 /* SwiftCLLocationManagerOneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftCLLocationManagerOneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B04EB96A1C675686000BCC43 /* SwiftCLLocationManagerOneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftCLLocationManagerOneTests.swift; sourceTree = "<group>"; };
+		B04EB96C1C675686000BCC43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B04EB9711C675686000BCC43 /* SwiftCLLocationManagerOneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftCLLocationManagerOneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B04EB9751C675686000BCC43 /* SwiftCLLocationManagerOneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftCLLocationManagerOneUITests.swift; sourceTree = "<group>"; };
+		B04EB9771C675686000BCC43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B04EB94C1C675686000BCC43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B04EB9631C675686000BCC43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B04EB96E1C675686000BCC43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B04EB9461C675685000BCC43 = {
+			isa = PBXGroup;
+			children = (
+				B04EB9511C675686000BCC43 /* SwiftCLLocationManagerOne */,
+				B04EB9691C675686000BCC43 /* SwiftCLLocationManagerOneTests */,
+				B04EB9741C675686000BCC43 /* SwiftCLLocationManagerOneUITests */,
+				B04EB9501C675686000BCC43 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B04EB9501C675686000BCC43 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B04EB94F1C675686000BCC43 /* SwiftCLLocationManagerOne.app */,
+				B04EB9661C675686000BCC43 /* SwiftCLLocationManagerOneTests.xctest */,
+				B04EB9711C675686000BCC43 /* SwiftCLLocationManagerOneUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B04EB9511C675686000BCC43 /* SwiftCLLocationManagerOne */ = {
+			isa = PBXGroup;
+			children = (
+				B04EB9521C675686000BCC43 /* AppDelegate.swift */,
+				B04EB9541C675686000BCC43 /* ViewController.swift */,
+				B04EB9561C675686000BCC43 /* Main.storyboard */,
+				B04EB95C1C675686000BCC43 /* Assets.xcassets */,
+				B04EB95E1C675686000BCC43 /* LaunchScreen.storyboard */,
+				B04EB9611C675686000BCC43 /* Info.plist */,
+				B04EB9591C675686000BCC43 /* SwiftCLLocationManagerOne.xcdatamodeld */,
+			);
+			path = SwiftCLLocationManagerOne;
+			sourceTree = "<group>";
+		};
+		B04EB9691C675686000BCC43 /* SwiftCLLocationManagerOneTests */ = {
+			isa = PBXGroup;
+			children = (
+				B04EB96A1C675686000BCC43 /* SwiftCLLocationManagerOneTests.swift */,
+				B04EB96C1C675686000BCC43 /* Info.plist */,
+			);
+			path = SwiftCLLocationManagerOneTests;
+			sourceTree = "<group>";
+		};
+		B04EB9741C675686000BCC43 /* SwiftCLLocationManagerOneUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B04EB9751C675686000BCC43 /* SwiftCLLocationManagerOneUITests.swift */,
+				B04EB9771C675686000BCC43 /* Info.plist */,
+			);
+			path = SwiftCLLocationManagerOneUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B04EB94E1C675686000BCC43 /* SwiftCLLocationManagerOne */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B04EB97A1C675686000BCC43 /* Build configuration list for PBXNativeTarget "SwiftCLLocationManagerOne" */;
+			buildPhases = (
+				B04EB94B1C675686000BCC43 /* Sources */,
+				B04EB94C1C675686000BCC43 /* Frameworks */,
+				B04EB94D1C675686000BCC43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftCLLocationManagerOne;
+			productName = SwiftCLLocationManagerOne;
+			productReference = B04EB94F1C675686000BCC43 /* SwiftCLLocationManagerOne.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B04EB9651C675686000BCC43 /* SwiftCLLocationManagerOneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B04EB97D1C675686000BCC43 /* Build configuration list for PBXNativeTarget "SwiftCLLocationManagerOneTests" */;
+			buildPhases = (
+				B04EB9621C675686000BCC43 /* Sources */,
+				B04EB9631C675686000BCC43 /* Frameworks */,
+				B04EB9641C675686000BCC43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B04EB9681C675686000BCC43 /* PBXTargetDependency */,
+			);
+			name = SwiftCLLocationManagerOneTests;
+			productName = SwiftCLLocationManagerOneTests;
+			productReference = B04EB9661C675686000BCC43 /* SwiftCLLocationManagerOneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B04EB9701C675686000BCC43 /* SwiftCLLocationManagerOneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B04EB9801C675686000BCC43 /* Build configuration list for PBXNativeTarget "SwiftCLLocationManagerOneUITests" */;
+			buildPhases = (
+				B04EB96D1C675686000BCC43 /* Sources */,
+				B04EB96E1C675686000BCC43 /* Frameworks */,
+				B04EB96F1C675686000BCC43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B04EB9731C675686000BCC43 /* PBXTargetDependency */,
+			);
+			name = SwiftCLLocationManagerOneUITests;
+			productName = SwiftCLLocationManagerOneUITests;
+			productReference = B04EB9711C675686000BCC43 /* SwiftCLLocationManagerOneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B04EB9471C675686000BCC43 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = RzRasel;
+				TargetAttributes = {
+					B04EB94E1C675686000BCC43 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					B04EB9651C675686000BCC43 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = B04EB94E1C675686000BCC43;
+					};
+					B04EB9701C675686000BCC43 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = B04EB94E1C675686000BCC43;
+					};
+				};
+			};
+			buildConfigurationList = B04EB94A1C675686000BCC43 /* Build configuration list for PBXProject "SwiftCLLocationManagerOne" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B04EB9461C675685000BCC43;
+			productRefGroup = B04EB9501C675686000BCC43 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B04EB94E1C675686000BCC43 /* SwiftCLLocationManagerOne */,
+				B04EB9651C675686000BCC43 /* SwiftCLLocationManagerOneTests */,
+				B04EB9701C675686000BCC43 /* SwiftCLLocationManagerOneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B04EB94D1C675686000BCC43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B04EB9601C675686000BCC43 /* LaunchScreen.storyboard in Resources */,
+				B04EB95D1C675686000BCC43 /* Assets.xcassets in Resources */,
+				B04EB9581C675686000BCC43 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B04EB9641C675686000BCC43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B04EB96F1C675686000BCC43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B04EB94B1C675686000BCC43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B04EB95B1C675686000BCC43 /* SwiftCLLocationManagerOne.xcdatamodeld in Sources */,
+				B04EB9551C675686000BCC43 /* ViewController.swift in Sources */,
+				B04EB9531C675686000BCC43 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B04EB9621C675686000BCC43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B04EB96B1C675686000BCC43 /* SwiftCLLocationManagerOneTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B04EB96D1C675686000BCC43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B04EB9761C675686000BCC43 /* SwiftCLLocationManagerOneUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B04EB9681C675686000BCC43 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B04EB94E1C675686000BCC43 /* SwiftCLLocationManagerOne */;
+			targetProxy = B04EB9671C675686000BCC43 /* PBXContainerItemProxy */;
+		};
+		B04EB9731C675686000BCC43 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B04EB94E1C675686000BCC43 /* SwiftCLLocationManagerOne */;
+			targetProxy = B04EB9721C675686000BCC43 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B04EB9561C675686000BCC43 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B04EB9571C675686000BCC43 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B04EB95E1C675686000BCC43 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B04EB95F1C675686000BCC43 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B04EB9781C675686000BCC43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B04EB9791C675686000BCC43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B04EB97B1C675686000BCC43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SwiftCLLocationManagerOne/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rz.rasel.SwiftCLLocationManagerOne;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B04EB97C1C675686000BCC43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SwiftCLLocationManagerOne/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rz.rasel.SwiftCLLocationManagerOne;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B04EB97E1C675686000BCC43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SwiftCLLocationManagerOneTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rz.rasel.SwiftCLLocationManagerOneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftCLLocationManagerOne.app/SwiftCLLocationManagerOne";
+			};
+			name = Debug;
+		};
+		B04EB97F1C675686000BCC43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SwiftCLLocationManagerOneTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rz.rasel.SwiftCLLocationManagerOneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftCLLocationManagerOne.app/SwiftCLLocationManagerOne";
+			};
+			name = Release;
+		};
+		B04EB9811C675686000BCC43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SwiftCLLocationManagerOneUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rz.rasel.SwiftCLLocationManagerOneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SwiftCLLocationManagerOne;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		B04EB9821C675686000BCC43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SwiftCLLocationManagerOneUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rz.rasel.SwiftCLLocationManagerOneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SwiftCLLocationManagerOne;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B04EB94A1C675686000BCC43 /* Build configuration list for PBXProject "SwiftCLLocationManagerOne" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B04EB9781C675686000BCC43 /* Debug */,
+				B04EB9791C675686000BCC43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B04EB97A1C675686000BCC43 /* Build configuration list for PBXNativeTarget "SwiftCLLocationManagerOne" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B04EB97B1C675686000BCC43 /* Debug */,
+				B04EB97C1C675686000BCC43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B04EB97D1C675686000BCC43 /* Build configuration list for PBXNativeTarget "SwiftCLLocationManagerOneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B04EB97E1C675686000BCC43 /* Debug */,
+				B04EB97F1C675686000BCC43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B04EB9801C675686000BCC43 /* Build configuration list for PBXNativeTarget "SwiftCLLocationManagerOneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B04EB9811C675686000BCC43 /* Debug */,
+				B04EB9821C675686000BCC43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B04EB9591C675686000BCC43 /* SwiftCLLocationManagerOne.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B04EB95A1C675686000BCC43 /* SwiftCLLocationManagerOne.xcdatamodel */,
+			);
+			currentVersion = B04EB95A1C675686000BCC43 /* SwiftCLLocationManagerOne.xcdatamodel */;
+			path = SwiftCLLocationManagerOne.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B04EB9471C675686000BCC43 /* Project object */;
+}
