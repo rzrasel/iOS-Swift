@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="iVt-9Y-AWO">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SwiftUIPageViewControllerOne" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="3PY-hl-mfI">
+                        <barButtonItem key="rightBarButtonItem" title="Next" id="uVn-LO-AqK">
+                            <connections>
+                                <action selector="sysOnClickBarItemNext:" destination="BYZ-38-t0r" id="VUd-my-3XO"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="648" y="466"/>
+        </scene>
+        <!--Uvc The Next-->
+        <scene sceneID="8PB-vD-pPt">
+            <objects>
+                <viewController storyboardIdentifier="UvcTheNext" id="sR1-cf-Suw" customClass="UvcTheNext" customModule="SwiftUIPageViewControllerOne" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="YzH-pM-j1t"/>
+                        <viewControllerLayoutGuide type="bottom" id="5CC-EP-nQ3"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="WoG-Bh-P3s">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Next Page" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ngU-2b-bBk">
+                                <rect key="frame" x="16" y="273" width="288" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="288" id="tNR-ba-DVt"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="ngU-2b-bBk" firstAttribute="centerX" secondItem="WoG-Bh-P3s" secondAttribute="centerX" id="4wR-6n-NLR"/>
+                            <constraint firstItem="ngU-2b-bBk" firstAttribute="centerY" secondItem="WoG-Bh-P3s" secondAttribute="centerY" id="kZH-eI-t2M"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CEb-WG-JAu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1002" y="466"/>
+        </scene>
+        <!--Page View Controller-->
+        <scene sceneID="XDK-NU-nkB">
+            <objects>
+                <pageViewController storyboardIdentifier="RzPageViewController" autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="0XU-71-vW1" sceneMemberID="viewController">
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </pageViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Rys-OP-Dv7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1364" y="466"/>
+        </scene>
+        <!--Uvc Page Content Holder-->
+        <scene sceneID="shE-I0-rkY">
+            <objects>
+                <viewController storyboardIdentifier="UvcPageContentHolder" id="mSB-S9-bva" customClass="UvcPageContentHolder" customModule="SwiftUIPageViewControllerOne" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="BF9-I2-958"/>
+                        <viewControllerLayoutGuide type="bottom" id="fl4-wW-Iiv"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="YxK-qh-6te">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="CEv-yS-0jQ">
+                                <rect key="frame" x="-4" y="0.0" width="328" height="568"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="CEv-yS-0jQ" firstAttribute="leading" secondItem="YxK-qh-6te" secondAttribute="leadingMargin" constant="-20" id="P1A-k4-CVB"/>
+                            <constraint firstItem="fl4-wW-Iiv" firstAttribute="top" secondItem="CEv-yS-0jQ" secondAttribute="bottom" id="Vqu-mV-Pyl"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="CEv-yS-0jQ" secondAttribute="trailing" constant="-20" id="VwG-Tx-aUF"/>
+                            <constraint firstItem="CEv-yS-0jQ" firstAttribute="top" secondItem="BF9-I2-958" secondAttribute="bottom" constant="-20" id="nSb-f8-Zje"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="sysImageHolder" destination="CEv-yS-0jQ" id="eq2-Jd-apN"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Gn7-G2-Uf5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1729" y="466"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="XAY-Ux-exg">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="iVt-9Y-AWO" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="TEs-dn-2Gb">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="FH2-gD-JbV"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ctn-Hj-xyJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="264" y="466"/>
+        </scene>
+    </scenes>
+</document>
